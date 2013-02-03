@@ -6,7 +6,7 @@ Thanks to scrooloose for sharing his excellent vimfiles!
 
 To install the config:
 ----------------------
-    curl https://github.com/chpill/vimfiles/raw/master/install.sh
+    curl -L https://github.com/chpill/vimfiles/raw/master/install.sh | sh
 
 
 (original README under)
