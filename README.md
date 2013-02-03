@@ -4,6 +4,10 @@ VIMFILES
 Adding Mustang colorscheme and just a bit of tweaking at the end of the vimrc
 Thanks to scrooloose for sharing his excellent vimfiles!
 
+To install the config:
+----------------------
+    curl https://github.com/chpill/vimfiles/raw/master/install.sh
+
 
 (original README under)
 
