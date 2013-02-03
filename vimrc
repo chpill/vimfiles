@@ -64,8 +64,8 @@ filetype indent on
 syntax on
 
 "some stuff to get the mouse going in term
-set mouse=a
-set ttymouse=xterm2
+"set mouse=a
+"set ttymouse=xterm2
 
 "tell the term has 256 colors
 set t_Co=256
@@ -306,3 +306,13 @@ autocmd BufReadPost fugitive://*
   \   nnoremap <buffer> .. :edit %:h<CR> |
   \ endif
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Ajout perso à partir d'ici (à mettre dans un fichier à part?)
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+colorscheme Mustang
+set nobk nowb noswf " Disable backup, that's what git is for...
+set ignorecase
+set smartcase
+
+let g:syntastic_check_on_open=1

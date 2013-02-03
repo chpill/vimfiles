@@ -1,3 +1,14 @@
+VIMFILES
+========
+
+Adding Mustang colorscheme and just a bit of tweaking at the end of the vimrc
+Thanks to scrooloose for sharing his excellent vimfiles!
+
+
+(original README under)
+
+
+
 This is my ~/.vim dir and _this_, dear reader, is a horse:
 
                    ,
