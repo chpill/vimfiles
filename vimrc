@@ -311,6 +311,7 @@ autocmd BufReadPost fugitive://*
 "Ajout perso à partir d'ici (à mettre dans un fichier à part?)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 colorscheme Mustang
+set nobk nowb noswf " Disable backup, that's what git is for..."
 set ignorecase
 set smartcase
 
