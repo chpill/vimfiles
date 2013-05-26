@@ -35,8 +35,8 @@ if v:version >= 703
 endif
 
 "default indent settings
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set autoindent
 
@@ -311,8 +311,24 @@ autocmd BufReadPost fugitive://*
 "Ajout perso à partir d'ici (à mettre dans un fichier à part?)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 colorscheme Mustang
-set nobk nowb noswf " Disable backup, that's what git is for...
 set ignorecase
 set smartcase
 
 let g:syntastic_check_on_open=1
+
+" http://vimcasts.org/episodes/bubbling-text/
+" some mapping to use bubbling with unimpaired more easily (especially on
+" AZERTY keyboard!)
+" single line bubbling
+nmap <C-k> [e
+nmap <C-j> ]e
+" visual selection bubbling
+vmap <C-k> [egv
+vmap <C-j> ]egv
+
+" http://vimcasts.org/episodes/updating-your-vimrc-file-on-the-fly/
+"   autocmd bufwritepost .vimrc source $MYVIMRC
+"   endif
+if has("autocmd")
+  autocmd! bufwritepost .vimrc,vimrc source $MYVIMRC
+endif
