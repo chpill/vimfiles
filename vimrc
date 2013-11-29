@@ -308,7 +308,7 @@ autocmd BufReadPost fugitive://*
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"Ajout perso à partir d'ici (à mettre dans un fichier à part?)
+"custom settings from here
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 colorscheme Mustang
 set nobk nowb noswf " Disable backup, that's what git is for..."
@@ -333,3 +333,7 @@ vmap <C-j> ]egv
 if has("autocmd")
   autocmd! bufwritepost .vimrc,vimrc source $MYVIMRC
 endif
+
+"binding for the unite plugin
+nnoremap <Esc>b :Unite -start-insert buffer<CR>
+nnoremap <Esc>f :Unite -start-insert file_rec<CR>
