@@ -337,3 +337,9 @@ endif
 "binding for the unite plugin
 nnoremap <C-b> :Unite -start-insert buffer<CR>
 nnoremap <C-f> :Unite -start-insert file_rec<CR>
+
+" Clojure specifics
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
