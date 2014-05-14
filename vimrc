@@ -335,5 +335,5 @@ if has("autocmd")
 endif
 
 "binding for the unite plugin
-nnoremap <Esc>b :Unite -start-insert buffer<CR>
-nnoremap <Esc>f :Unite -start-insert file_rec<CR>
+nnoremap <C-b> :Unite -start-insert buffer<CR>
+nnoremap <C-f> :Unite -start-insert file_rec<CR>
