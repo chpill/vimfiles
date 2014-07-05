@@ -343,3 +343,5 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+autocmd BufRead,BufNewFile *.cljs setlocal filetype=clojure
