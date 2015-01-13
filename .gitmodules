@@ -109,3 +109,6 @@
 [submodule "bundle/clojure-static"]
 	path = bundle/clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
+[submodule "bundle/vimproc"]
+	path = bundle/vimproc
+	url = git@github.com:Shougo/vimproc.vim.git
