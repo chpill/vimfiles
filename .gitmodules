@@ -78,7 +78,7 @@
 	url = https://github.com/SirVer/ultisnips.git
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
-	url = git://github.com/majutsushi/tagbar
+	url = https://github.com/majutsushi/tagbar
 [submodule "bundle/MatchTag"]
 	path = bundle/MatchTag
 	url = https://github.com/gregsexton/MatchTag.git
@@ -99,16 +99,16 @@
 	url = https://github.com/Shougo/unite.vim.git
 [submodule "bundle/rainbow_parentheses"]
 	path = bundle/rainbow_parentheses
-	url = git@github.com:kien/rainbow_parentheses.vim.git
+	url = https://github.com/kien/rainbow_parentheses.vim.git
 [submodule "bundle/fireplace"]
 	path = bundle/fireplace
-	url = git://github.com/tpope/vim-fireplace.git
+	url = https://github.com/tpope/vim-fireplace.git
 [submodule "bundle/classpath"]
 	path = bundle/classpath
-	url = git://github.com/tpope/vim-classpath.git
+	url = https://github.com/tpope/vim-classpath.git
 [submodule "bundle/clojure-static"]
 	path = bundle/clojure-static
-	url = git://github.com/guns/vim-clojure-static.git
+	url = https://github.com/guns/vim-clojure-static.git
 [submodule "bundle/vimproc"]
 	path = bundle/vimproc
-	url = git@github.com:Shougo/vimproc.vim.git
+	url = https://github.com/Shougo/vimproc.vim.git
